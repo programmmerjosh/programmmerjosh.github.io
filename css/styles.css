@@ -10213,7 +10213,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-.masthead .container .text-center h1 {
+#grand-title {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 4.5rem;
   line-height: 4.5rem;
@@ -10223,23 +10223,25 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
-.masthead .container .text-center h2 {
+.masthead .container .row .text-center h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
+
 @media (min-width: 992px) {
   .masthead {
-    /* height: auto;
-    min-height: 10rem;
-    padding: 6rem 0 2rem; */
     height: 100vh;
-    /* padding: 0; */
   }
+}
 
-  .masthead .container .text-center h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+@media (max-width: 992px) {
+  .masthead {
+    padding: 10rem 0;
+  }
+  #grand-title {
+    font-size: 3.5rem; /* original: 4.5rem  || (@media 992px): 3.5 */
+    line-height: 3.5rem; /* original: 4.5rem  || (@media 992px): 3.5 */
+    letter-spacing: 0.7rem; /* original: 0.8rem  || (@media 992px): 0.7 */
   }
 
   .masthead .container .text-center  h2 {
@@ -10248,36 +10250,25 @@ body {
   }
 }
 
-@media (min-width: 992px) {
-  .masthead {
-    /* min-height: 6rem; */
-  }
-  /* .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  } */
-  /* .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
-  } */
-}
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .masthead {
     height: auto;
     min-height: 10rem;
-    padding: 2rem 0 2rem;
+    padding: 8rem 0 2rem;
   }
-  .masthead .container .text-center h1 {
-    font-size: 3rem;
-    line-height: 3rem;
+  #grand-title {
+    font-size: 2.8rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 */
+    line-height: 2.8rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 */
+    letter-spacing: 0.65rem; /* original: 0.8rem  || (@media 992px): 0.7 || (@media 768px): 0.65 */
   }
 }
 
-@media (min-width: 400px) {
-  .masthead {
-    padding: 6rem 0 2rem;
+@media (max-width: 400px) {
+  #grand-title {
+    font-size: 2.2rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 || (@media 400px): 2.2 */
+    line-height: 2.2rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 || (@media 400px): 2.2 */
+    letter-spacing: 0.5rem; /* original: 0.8rem  || (@media 992px): 0.7 || (@media 768px): 0.65 || (@media 400px): 0.5 */
   }
 }
 
@@ -10392,36 +10383,28 @@ body {
 }
 
 .testimonial-wrapper{ background: #64a19d;
-border-radius: 5%; }
+border-radius: 10px; }
 
 .testimonial{
   padding: 10px 20px;
-    /* background: #fff;
-    text-align: center;
-    padding: 30px 30px 50px;
-    margin: 0 15px 100px;
-    position: relative; */
 }
-.testimonial .white-box {
-  /* background-color: white;
-  border-radius: 25%;
-  padding: 10px; */
-}
-.testimonial:before,
+
+/* ?????????? */
+/* .testimonial:before,
 .testimonial:after{
-    /* content: "";
+    content: "";
     border-top: 40px solid #fff;
     border-right: 125px solid transparent;
     position: absolute;
     bottom: -40px;
-    left: 0; */
+    left: 0;
 }
 .testimonial:after{
-    /* border-right: none;
+    border-right: none;
     border-left: 125px solid transparent;
     left: auto;
-    right: 0; */
-}
+    right: 0;
+} */
 .testimonial .icon{
     display: inline-block;
     font-size: 40px;
@@ -10437,14 +10420,13 @@ border-radius: 5%; }
 }
 .testimonial .testimonial-profile{
     width: 100%;
-    /* position: absolute; */
     left: 100;
 }
 .testimonial-profile .pic{
     display: inline-block;
     border: 2px solid #fff;
     border-radius: 50%;
-    box-shadow: 0 0 2px 2px #daad86;
+    box-shadow: 0 0 2px 2px #c4abfd;
     overflow: hidden;
     z-index: 1;
     position: relative;
@@ -10461,9 +10443,8 @@ border-radius: 5%; }
     margin: 0 0 5px 0;
 }
 .testimonial .job-title{
-    /* display: block; */
     font-size: 14px;
-    color: #ffd9b8;
+    color: #c4abfd;
 }
 .owl-theme .owl-controls{
     margin-top: 0;
@@ -10478,7 +10459,8 @@ border-radius: 5%; }
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-    background: #ffd9b8;
+    /* background: #ffd9b8; */
+    background: #c4abfd;
     border-color: #fff;
 }
 @media only screen and (max-width: 650px) and (min-width: 400px){
@@ -10486,24 +10468,14 @@ border-radius: 5%; }
     .testimonial:after{ border-left: 325px solid transparent; }
 }
 
-/* @media (min-width: 800px) {
-  .masthead h1 {
-    margin-top: 50px;
+@media (max-width: 992px) {
+  .plan-section, .steps-section, .signup-section {
+    padding: 4rem 0;
   }
+}
+
+@media (max-width: 768px) {
   .plan-section, .steps-section, .signup-section {
     padding: 1rem 0;
   }
 }
-
-@media (min-width: 600px) {
-  .masthead {
-    padding: 8rem 0;
-  }
-  .plan-section, .steps-section, .signup-section {
-    padding: 1rem 0;
-  }
-} */
-
-/* #level-two-bot-margin {
-  margin-bottom: 20px;
-} */
