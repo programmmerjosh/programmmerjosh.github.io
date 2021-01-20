@@ -40,19 +40,20 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center mt-m-3">
-                    <h1 class="mx-auto my-0 text-uppercase">Goal Symmetry</h1>
-                    <h2 id="tag-line" class="mx-auto mt-2 mb-5">Design Your Life</h2>
+                <div class="row">
+                  <div class="col-12 mx-auto text-center">
+                      <h1 class="mx-auto my-0 text-uppercase">Goal Symmetry</h1>
+                      <h2 id="tag-line" class="mx-auto mt-2 mb-5">SIMPLE IDEAS. POWERFUL RESULTS!</h2>
 
-                    <h3 class="text-white-50 ">A simple formula that's stood the test of time!</h3>
-                    <h3 class="text-white-50 ">Make a real difference in your community and in your own life! </h3>
-                    <h3 id="text-before-button-options" class="text-white-50">A <span style="color:#64a19d">FREE</span> book to get you started!</h3>
-                    <div class="d-flex justify-content-center">
-                      <p>
-                        <a id="level-two-bot-margin" class="btn btn-primary js-scroll-trigger" href="">Yes! I Want The Free Book</a><span></span>
-                        <a id="level-two-bot-margin" class="btn btn-light js-scroll-trigger" href="#plan">Find Out More</a>
-                      </p>
-                    </div>
+                      <h3 class="text-white-50 ">A simple formula that's stood the test of time!</h3>
+                      <h3 class="text-white-50 ">Make a real difference in your community and in your own life! </h3>
+                      <h3 id="text-before-button-options" class="text-white-50">A <span style="color:#64a19d">FREE</span> book to get you started!</h3>
+                  </div>
+
+                  <div class="col-8 offset-2 col-md-12 offset-md-0 mt-4 d-md-flex justify-content-center d-block">
+                    <a class="btn btn-primary js-scroll-trigger mb-2 d-block d-md-inline" href="">Yes! I Want The Free Book</a> <span style="width:10px"></span>
+                    <a class="btn btn-light js-scroll-trigger mb-2 d-block d-md-inline" href="#plan">Find Out More</a>
+                  </div>
                 </div>
             </div>
         </header>
@@ -88,11 +89,11 @@
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Step 1</h4>
-                            <p class="text-black-50 mb-0"><a class="js-scroll-trigger" href="#">Download Your Free eBook</a></p>
+                            <p class="text-black-50 mb-0"><a class="js-scroll-trigger" href="#signup">Signup</a> To Receive Updates</p>
                         </div>
                         <div class="featured-text text-center text-lg-left">
                             <h4>Step 2</h4>
-                            <p class="text-black-50 mb-0"><a class="js-scroll-trigger" href="#signup">Signup</a> To Receive Updates</p>
+                            <p class="text-black-50 mb-0"><a class="js-scroll-trigger" href="#">Download Your Free eBook</a></p>
                         </div>
                         <div class="featured-text text-center text-lg-left">
                             <h4>Step 3</h4>
@@ -149,10 +150,11 @@
                             <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
                             <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
                         </form>
+                    </div>
 
-                        <div class="col mt-4">
-                          <p><a class="btn btn-light js-scroll-trigger" href="#testimonials">See What Other People Say</a></p>
-                        </div>
+                    <div class="col-8 offset-2 col-md-12 offset-md-0 mt-4 d-md-flex justify-content-center d-block">
+                      <a class="btn btn-primary js-scroll-trigger mb-2 d-block d-md-inline" href="#testimonials">Download My Free Book!</a> <span style="width:10px; height:20px"></span>
+                      <a class="btn btn-light js-scroll-trigger mb-2 d-block d-md-inline" href="#testimonials">See What Other People Say</a>
                     </div>
                 </div>
             </div>
@@ -167,61 +169,85 @@
               </div>
             </div>
 
-            <div class="demo">
+            <div class="testimonial-wrapper">
               <div class="container">
                   <div class="row">
                       <div class="col-md-12">
                           <div id="testimonial-slider" class="owl-carousel">
-                              <div class="testimonial">
 
-                                  <a href="#signup"><span class="icon fa fa-quote-left"></span></a>
-                                  <p class="description">
-                                      1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                  </p>
-                                  <div class="testimonial-content">
-                                      <div class="pic"><img src="assets/img/profile-edit.jpg" alt=""></div>
-                                      <h3 class="title">williamson</h3>
-                                      <span class="post">Web Developer</span>
+                            <div class="testimonial">
+                              <a href="#signup"><span class="icon fa fa-quote-left"></span></a>
+                              <p class="comment">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                              </p>
+                              <div class="testimonial-profile d-flex justify-content-center">
+                                  <div class="pic d-block">
+                                    <img class="" src="assets/img/profile-edit.jpg" alt="">
+                                  </div>
+                                  <span style="width:10px"></span>
+                                  <div class="mt-4 d-block">
+
+                                    <h3 class="name">jeremy evans</h3>
+                                    <h4 class="job-title">Web Developer</h4>
                                   </div>
                               </div>
-                              <div class="testimonial">
-                                  <span class="icon fa fa-quote-left"></span>
-                                  <p class="description">
-                                      2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                  </p>
-                                  <div class="testimonial-content">
-                                      <div class="pic"><img src="assets/img/profile-edit.jpg" alt=""></div>
-                                      <h3 class="title">Kristina</h3>
-                                      <span class="post">Designer</span>
+                            </div>
+                            <div class="testimonial">
+                              <a href="#signup"><span class="icon fa fa-quote-left"></span></a>
+                              <p class="comment">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                              </p>
+                              <div class="testimonial-profile d-flex justify-content-center">
+                                  <div class="pic d-block">
+                                    <img class="" src="assets/img/profile-edit.jpg" alt="">
+                                  </div>
+                                  <span style="width:10px"></span>
+                                  <div class="mt-4 d-block">
+
+                                    <h3 class="name">jeremy evans</h3>
+                                    <h4 class="job-title">Web Developer</h4>
                                   </div>
                               </div>
-                              <div class="testimonial">
-                                  <span class="icon fa fa-quote-left"></span>
-                                  <p class="description">
-                                      3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                  </p>
-                                  <div class="testimonial-content">
-                                      <div class="pic"><img src="assets/img/profile-edit.jpg" alt=""></div>
-                                      <h3 class="title">Steve Thomas</h3>
-                                      <span class="post">Writer</span>
+                            </div>
+                            <div class="testimonial">
+                              <a href="#signup"><span class="icon fa fa-quote-left"></span></a>
+                              <p class="comment">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                              </p>
+                              <div class="testimonial-profile d-flex justify-content-center">
+                                  <div class="pic d-block">
+                                    <img class="" src="assets/img/profile-edit.jpg" alt="">
+                                  </div>
+                                  <span style="width:10px"></span>
+                                  <div class="mt-4 d-block">
+
+                                    <h3 class="name">jeremy evans</h3>
+                                    <h4 class="job-title">Web Developer</h4>
                                   </div>
                               </div>
-                              <div class="testimonial">
-                                  <span class="icon fa fa-quote-left"></span>
-                                  <p class="description">
-                                      3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
-                                  </p>
-                                  <div class="testimonial-content">
-                                      <div class="pic"><img src="assets/img/profile-edit.jpg" alt=""></div>
-                                      <h3 class="title">Steve Thomas</h3>
-                                      <span class="post">Writer</span>
+                            </div>
+                            <div class="testimonial">
+                              <a href="#signup"><span class="icon fa fa-quote-left"></span></a>
+                              <p class="comment">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                              </p>
+                              <div class="testimonial-profile d-flex justify-content-center">
+                                  <div class="pic d-block">
+                                    <img class="" src="assets/img/profile-edit.jpg" alt="">
+                                  </div>
+                                  <span style="width:10px"></span>
+                                  <div class="mt-4 d-block">
+
+                                    <h3 class="name">jeremy evans</h3>
+                                    <h4 class="job-title">Web Developer</h4>
                                   </div>
                               </div>
+                            </div>
                           </div>
                       </div>
                   </div>
               </div>
-              <span><a style="font-size:8px; color: #64bfff" target="_blank" href="https://www.bestjquery.com/codelab/">Resource Credit: CodeLab</a></span>
+              <!-- <span><a style="font-size:8px; color: #64bfff" target="_blank" href="https://www.bestjquery.com/codelab/">Resource Credit: CodeLab</a></span> -->
 
             </div>
 
