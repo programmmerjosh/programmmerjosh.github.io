@@ -10315,6 +10315,7 @@ p.lead {
   float:right;
   border-radius: 20px;
   border: 3px solid #49cda4;
+  margin-left: 10px;
 }
 
 #my-drop {

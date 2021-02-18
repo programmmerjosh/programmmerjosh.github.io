@@ -10117,15 +10117,15 @@ header.masthead h1 {
 }
 
 #portfolio {
-  padding: 150px 0;
+  padding: 80px 0 150px;
   background-image: linear-gradient(to top, rgba(10, 10, 10, 0.9) 20%, rgba(200, 255, 255, 0.9) 90%), url('../img/architecture-2287327.jpg');
   background-size: 1300px 800px;
   background-attachment: fixed;
-  min-height: 550px;
+  /* min-height: 550px; */
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
-  max-width: 1920px;
+  /* max-width: 1920px; */
 }
 #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
   position: relative;
@@ -10163,7 +10163,8 @@ header.masthead h1 {
 
 #main-category-nav-box a img {
   border-radius: 20px;
-  height: 600px;
+  height: 320px;
+  width: auto;
 }
 
 #main-category-nav-box div h4 {
