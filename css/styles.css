@@ -107,12 +107,6 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit;
-}
-
 ol,
 ul,
 dl {
@@ -125,15 +119,6 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
-}
-
-dt {
-  font-weight: 700;
-}
-
-dd {
-  margin-bottom: 0.5rem;
-  margin-left: 0;
 }
 
 blockquote {
@@ -301,34 +286,6 @@ input[type=checkbox] {
   padding: 0;
 }
 
-textarea {
-  overflow: auto;
-  resize: vertical;
-}
-
-fieldset {
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-legend {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  line-height: inherit;
-  color: inherit;
-  white-space: normal;
-}
-
-progress {
-  vertical-align: baseline;
-}
-
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
   height: auto;
@@ -402,29 +359,6 @@ h6, .h6 {
   font-weight: 300;
 }
 
-.display-1 {
-  font-size: 6rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.display-2 {
-  font-size: 5.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.display-3 {
-  font-size: 4.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.display-4 {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
 
 hr {
   margin-top: 1rem;
@@ -10122,12 +10056,8 @@ header.masthead h1 {
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /* min-height: 550px; */
 }
 
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
-  /* max-width: 1920px; */
-}
 #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
   position: relative;
   display: block;
@@ -10138,8 +10068,6 @@ header.masthead h1 {
   justify-content: center;
   flex-direction: column;
   border-radius: 20px;
-  /* width: 100%;
-  height: 100%; */
   height: 320px;
   width: 340px;
   position: absolute;
@@ -10181,11 +10109,6 @@ height: 220px;
 width: 240px;
 }
 }
-
-/* #web-dev {
-
-} */
-
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
