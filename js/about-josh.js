@@ -5,7 +5,7 @@
     */
 
     // to top right away
-  if ( window.location.hash ) scroll(0,3000);
+  if ( window.location.hash ) scroll(0,0);
   // void some browsers issue
   setTimeout( function() { scroll(0,0); }, 1);
 
