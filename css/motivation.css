@@ -10204,11 +10204,12 @@ body {
 .masthead {
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 35rem;
+  height: 100vh;
+  /* height: auto;
+  min-height: 35rem; */
   padding: 15rem 0;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/bg-masthead.jpg"); */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/morning-2264051.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/morning-2264051.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10231,7 +10232,7 @@ body {
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    /* height: 100vh; */
   }
 }
 
@@ -10254,8 +10255,8 @@ body {
 
 @media (max-width: 768px) {
   .masthead {
-    height: auto;
-    min-height: 10rem;
+    /* height: auto; */
+    /* min-height: 35rem; */
     padding: 8rem 0 2rem;
   }
   #grand-title {
@@ -10310,6 +10311,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
+  height: 70vh;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../img/bg-signup.jpg"); */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../img/chess-3894243.jpg");
   background-position: center;
@@ -10411,16 +10413,26 @@ border-radius: 10px; }
 }
 
 .fixed-floating-buttons.ffb-one {
-  bottom: 5%;
+  bottom: 35px;
 }
 
 .fixed-floating-buttons.ffb-two {
-  bottom: 15%;
+  bottom: 95px;
 }
 
-.fixed-floating-buttons:hover {
-  /* background: #7b4397; */
-  /* background: linear-gradient(#1276eb, #49cda4); */
+/* max width */
+@media (max-width: 768px) {
+  .fixed-floating-buttons {
+    right: 5px;
+  }
+
+  /* .fixed-floating-buttons.ffb-one {
+    bottom: 15px;
+  }
+
+  .fixed-floating-buttons.ffb-two {
+    bottom: 75px;
+  } */
 }
 
 /* ?????????? */
