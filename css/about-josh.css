@@ -10069,14 +10069,14 @@ p.lead {
 }
 
 #web-dev {
-  background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.9) 20%, rgba(200, 80, 80, 0.9) 100%), url('../img/architecture-2287327.jpg');
+  background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.9) 20%, rgba(200, 80, 80, 0.9) 100%), url('../img/architecture-2287327-min.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
-  min-height: 550px;
+  /* min-height: 550px; */
 }
 
 #motivation {
-  background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.9) 100%, rgba(200, 80, 80, 0.9) 100%), url('../img/lion-5292016.jpg');
+  background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.9) 100%, rgba(200, 80, 80, 0.9) 100%), url('../img/lion-5292016-min.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
   /* min-height: 550px; */
@@ -10393,6 +10393,11 @@ section.resume-section .resume-section-content {
   /* josh josh */
   .carousel-item {
     height: 660px;
+  }
+  #web-dev, #motivation {
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
   }
 }
 

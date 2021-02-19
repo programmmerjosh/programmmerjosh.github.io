@@ -9949,6 +9949,11 @@ hr.light {
 
 /* Josh's customizations PLUS Bootstrap template customizations BELOW */
 
+.text-pearl {
+  color: #fff;
+  opacity: 0.7;
+}
+
 .page-section {
   padding: 8rem 0;
 }
@@ -10052,7 +10057,7 @@ header.masthead h1 {
 
 #portfolio {
   padding: 80px 0 150px;
-  background-image: linear-gradient(to top, rgba(10, 10, 10, 0.9) 20%, rgba(200, 255, 255, 0.9) 90%), url('../img/architecture-2287327.jpg');
+  background-image: linear-gradient(to top, rgba(10, 10, 10, 0.9) 20%, rgba(200, 255, 255, 0.9) 90%), url('../img/architecture-2287327-min.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -10101,6 +10106,19 @@ header.masthead h1 {
 #main-category-nav-box div h4 {
   padding: 30px 0 10px;
 }
+
+@media (max-width: 767px) {
+header.masthead, #portfolio {
+  background-attachment: scroll;
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+#motivation-h4 {
+  color: #fff;
+  opacity: 0.7;
+}
+}
+
 
 @media (max-width: 374.5px) {
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption,
