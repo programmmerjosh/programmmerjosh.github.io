@@ -10110,6 +10110,9 @@ header.masthead h1 {
 @media (max-width: 767px) {
 header.masthead, #portfolio {
   background-attachment: scroll;
+}
+
+#portfolio {
   background-repeat: repeat-y;
   background-size: 100% auto;
 }
