@@ -1,0 +1,43 @@
+CACHE MANIFEST
+#DATE 20-02-2021
+CACHE:
+css/about-josh-min.css
+motivation-min.css
+new-age.min.css
+styles-min.css
+device-mockups/device-mockups.min.css
+device-mockups/iphone_6_plus/iphone_6_plus_black_port.png
+img/"Simulator Screen Shot - iPhone 12 Pro - 2020-12-01 at 13.01.05-min.png"
+img/"Simulator Screen Shot - iPhone 12 Pro - 2020-12-01 at 13.06.19-min.png"
+img/profile-pic-2020-min.jpeg
+img/"Simulator Screen Shot - iPhone 12 Pro - 2020-12-01 at 13.06.29_iphonexspacegrey_portrait-min.png"
+img/"Screenshot 2021-02-16 at 16.16.58-min.png"
+img/"Screenshot 2021-02-16 at 16.24.26-min.png"
+img/"Screenshot 2021-02-16 at 16.39.16-min.png"
+img/student_1-min.jpg
+img/gold_bullion_1-min.jpg
+img/real_estate_1-min.jpg
+img/rugby_sevens-min.jpg
+img/soccer_1-min.jpg
+img/squash_1-min.jpg
+img/table_tennis_1-min.jpg
+img/acoustic_1-min.jpg
+img/bass_1-min.jpg
+img/drums_1-min.jpg
+img/singer_1-min.jpg
+img/team_work_1-min.jpg
+img/team_work_1-min.jpg
+img/the_big_app-min.png
+img/josh-suit-2020-min.jpeg
+img/stones-min.jpg
+img/architecture-2287327-min.jpg
+img/lion-5292016-min.jpg
+img/morning-2264051-min.jpg
+img/chess-3894243-min.jpg
+img/bg-pattern.png
+img/panorama-1993645.jpg
+img/architecture-2287327-min.jpg
+NETWORK:
+*
+FALLBACK
+#static.html

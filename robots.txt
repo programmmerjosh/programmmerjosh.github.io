@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /ContactForm_v1/
+Disallow: /ContactForm_v4/
+Disallow: /device-mockups/
+Disallow: /vendor/
+
+sitemap: https://programmmerjosh.github.io/sitemap.xml
