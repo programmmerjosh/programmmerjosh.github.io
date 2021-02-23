@@ -432,3 +432,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+
+/* styling the privacy, terms and faq */
+@media (min-width: 992px) {
+  header.short-header-section  {
+    height: 30vh;
+    min-height: 350px;
+  }
+}
