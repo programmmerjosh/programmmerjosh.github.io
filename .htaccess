@@ -1,9 +1,17 @@
+# mod_rewrite starts here
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
+
+# this does not apply to existing directories
+
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*)\.html$ /$1 [L,R=302]
+# check for file in dir with .html extension
 
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# here we actually show the page that has the .html extension
+
+RewriteRule ^(.*)$ $1.html [NC,L]
 
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
