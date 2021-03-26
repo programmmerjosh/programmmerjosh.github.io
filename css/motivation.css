@@ -160,7 +160,7 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: red;
   text-decoration: none;
   background-color: transparent;
 }
@@ -9892,6 +9892,7 @@ button.bg-black:focus {
 
 .font-weight-bolder {
   font-weight: bolder !important;
+  color: black;
 }
 
 .font-italic {
@@ -10201,31 +10202,82 @@ body {
   border: 0;
 }
 
+/* JOSH EDITS */
+
 .masthead {
   position: relative;
   width: 100%;
-  height: 100vh;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/morning-2264051-min.jpg");
+  height: 75vh;
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 75%, #000000 100%), url("../img/sky-1373167_1920.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+#youtube-link {
+  width: 420px;
+  height: 315px;
+}
+
 #grand-title {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 4.5rem;
-  line-height: 4.5rem;
-  letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.45rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
 }
+
+#page-description {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.post-date {
+  font-size: 0.6rem;
+}
+
+#page-description a {
+  color: red;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#page-description a:hover {
+  color: white;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
 .masthead .container .row .text-center h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
+
+#my-drop {
+  margin-bottom: 20px;
+}
+
+#my-drop, #my-drop:focus {
+  outline: 0;
+  border-radius: 25px;
+}
+
+#my-drop ul {
+  border-radius: 10px;
+}
+
+#my-drop .input1 {
+  border-color: transparent;
+}
+
+
+
 
 @media (min-width: 992px) {
   .masthead {
@@ -10238,9 +10290,9 @@ body {
     padding: 10rem 0;
   }
   #grand-title {
-    font-size: 3.5rem; /* original: 4.5rem  || (@media 992px): 3.5 */
-    line-height: 3.5rem; /* original: 4.5rem  || (@media 992px): 3.5 */
-    letter-spacing: 0.7rem; /* original: 0.8rem  || (@media 992px): 0.7 */
+    font-size: 1.2rem; /* original: 4.5rem  || (@media 992px): 3.5 */
+    line-height: 1.2rem; /* original: 4.5rem  || (@media 992px): 3.5 */
+    /* letter-spacing: 0.7rem; /* original: 0.8rem  || (@media 992px): 0.7 */ */
   }
 
   .masthead .container .text-center  h2 {
@@ -10257,19 +10309,39 @@ body {
     padding: 8rem 0 2rem;
   }
   #grand-title {
-    font-size: 2.8rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 */
-    line-height: 2.8rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 */
-    letter-spacing: 0.65rem; /* original: 0.8rem  || (@media 992px): 0.7 || (@media 768px): 0.65 */
+    font-size: 1.1rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 */
+    line-height: 1.1rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 */
+    /* letter-spacing: 0.65rem; /* original: 0.8rem  || (@media 992px): 0.7 || (@media 768px): 0.65 */ */
+  }
+  #page-description, #page-description a {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #youtube-link {
+    width: 210px;
+    height: 156px;
   }
 }
 
 @media (max-width: 400px) {
   #grand-title {
-    font-size: 2.2rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 || (@media 400px): 2.2 */
-    line-height: 2.2rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 || (@media 400px): 2.2 */
-    letter-spacing: 0.5rem; /* original: 0.8rem  || (@media 992px): 0.7 || (@media 768px): 0.65 || (@media 400px): 0.5 */
+    font-size: 1rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 || (@media 400px): 2.2 */
+    line-height: 1rem; /* original: 4.5rem  || (@media 992px): 3.5 || (@media 768px): 2.8 || (@media 400px): 2.2 */
+    /* letter-spacing: 0.5rem; /* original: 0.8rem  || (@media 992px): 0.7 || (@media 768px): 0.65 || (@media 400px): 0.5 */ */
+  }
+  #page-description, #page-description a {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
   }
 }
+
+a#special-a-tag:active, a#special-a-tag:focus, a#special-a-tag {
+  text-decoration: none;
+}
+
 
 .plan-section {
   padding-top: 10rem;
@@ -10367,6 +10439,15 @@ body {
   padding: 5rem 0;
 }
 
+#blog-section {
+  min-height: 500px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.8) 75%, #000000 100%), url("../img/skateboard-5326930_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 #text-before-button-options {
   margin-bottom: 20px;
 }
@@ -10374,6 +10455,11 @@ body {
 #tag-line {
   font-weight: bold;
   color: #64a19d;
+}
+
+#small-text {
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 .img-profile {
