@@ -10387,6 +10387,15 @@ width: 240px;
 @media only screen and (max-width:990px){
    .box { margin: 0 0 30px; }
 }
+@media (max-width: 576px) {
+  .box{
+    border-radius: 25px 0;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+/* border-radius: 0.25rem !important; */
 
 #my-drop {
   margin-bottom: 20px;
