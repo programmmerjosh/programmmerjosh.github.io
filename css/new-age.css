@@ -431,7 +431,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
     -webkit-animation: fadeIn 0.3s ease-in-out;
     animation: fadeIn 0.3s ease-in-out;
-
 }
 
 .help-tip p{    /* The tooltip */
@@ -439,14 +438,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     text-align: left;
     background-color: #1E2021;
     padding: 20px;
-    width: 300px;
+    width: 200px;
     position: absolute;
     border-radius: 3px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    /* right: -4px; */
+    right: 50px;
     color: #FFF;
     font-size: 13px;
     line-height: 1.4;
+    z-index: 2000;
 }
 
 .help-tip p:before{ /* The pointer of the tooltip */
@@ -456,7 +456,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     height: 0;
     border:6px solid transparent;
     border-bottom-color:#1E2021;
-    right:10px;
+    left:175px;
     top:-12px;
 }
 
@@ -533,5 +533,26 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   header.short-header-section  {
     height: 30vh;
     min-height: 350px;
+  }
+}
+
+@media (max-width: 992px) {
+  .help-tip p{    /* The tooltip */
+      right: 0px;
+  }
+  .help-tip p:before{ /* The pointer of the tooltip */
+      left:160px;
+  }
+}
+
+@media (max-width: 767px) {
+  .help-tip p:before{ /* The pointer of the tooltip */
+      left:176px;
+  }
+}
+
+@media (max-width: 567px) {
+  .help-tip p:before{ /* The pointer of the tooltip */
+      left:188px;
   }
 }
