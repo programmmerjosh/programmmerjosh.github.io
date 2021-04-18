@@ -4023,6 +4023,19 @@ input[type=button].btn-block {
   display: block;
 }
 
+.tab-indent {
+  width: 10px;
+}
+
+.post-type {
+  font-size: 0.8rem;
+  color: #81683d;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
 .navbar {
   position: relative;
   display: flex;
