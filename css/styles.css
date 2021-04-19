@@ -63,6 +63,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.color-text-1 {
+  color: #a1cde7;
+  font-weight: bold;
+}
+
 footer {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
   padding: 25px 0;
@@ -10019,6 +10024,11 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.quote-note {
+  font-size: 0.7rem;
+  line-height: 0.5rem;
 }
 
 @media (min-width: 768px) {

@@ -83,7 +83,20 @@
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h6 class="contact1-form-title">Free Quote</h6>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h6 class="contact1-form-title">Free Quote</h6>
+                      <em class="quote-note text-black-50">
+                        NOTE: <span class="color-text-1">All fields are required</span>. You will only be allowed to submit one quote request.
+                        By submitting a quote request,
+                        you also agree to subscribe to the mailing list. You can find a link to unsubscribe when
+                        receiving any emails from me if you so desire.
+                      </em>
+                    </div>
+                  </div>
+                </div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -93,28 +106,36 @@
                   <form class="contact1-form validate-form"
                   action="https://github.us1.list-manage.com/subscribe/post?u=8820105849b743b8cd9384883&amp;id=3bcc0bf3ca"
                   method="POST"
+                  name="mc-embedded-subscribe-form" class="validate" data-validate
                   >
+                  <!--  -->
 
-                    <div class="wrap-input1 validate-input" data-validate = "Name is required">
-                      <input class="input1" type="text" name="name" placeholder="Name">
+                    <div class="wrap-input1 validate-input" data-validate="Name is required">
+                      <input class="input1" type="text" name="NAME" placeholder="Name">
                       <span class="shadow-input1"></span>
                     </div>
 
-                    <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                      <input class="input1" type="text" name="email" placeholder="Email">
+                    <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                      <input class="input1" type="text" name="EMAIL" placeholder="Email">
                       <span class="shadow-input1"></span>
                     </div>
 
 
-                    <div class="wrap-input1 validate-input" data-validate = "Message is required">
-                      <textarea class="input1" name="website-scope"
+                    <div class="wrap-input1 validate-input" data-validate="Message is required">
+                      <textarea class="input1" name="MESSAGE"
                       placeholder="Add your desired website scale/size: eg. Need 3 web pages. Home page (5 sections). About page (2 sections). Blog page (4 sections)."
                       ></textarea>
                       <span class="shadow-input1"></span>
                     </div>
 
+                    <div id="mce-responses" class="clear">
+                  		<div class="response" id="mce-error-response" style="display:none"></div>
+                  		<div class="response" id="mce-success-response" style="display:none"></div>
+                  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8820105849b743b8cd9384883_3bcc0bf3ca" tabindex="-1" value=""></div>
+
                     <div class="container-contact1-form-btn">
-                      <button class="contact1-form-btn">
+                      <button type="submit" name="subscribe" class="contact1-form-btn">
                         <span>
                           Submit Quote Request
                           <i class="far fa-paper-plane" aria-hidden="true"></i>
@@ -125,6 +146,8 @@
               </div>
             </div>
           </div>
+          <!-- <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
+          <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script> -->
         </div>
 
         <!-- Templates -->
@@ -365,6 +388,7 @@
                   <hr>
                   <h2 class="mt-2 pb-2">Thanks to these creators for their free for commercial use assets.</h2>
                   <p>Man on computer animation by <a target="_blank" href="https://lottiefiles.com/44387-man-working-on-computer ">bhumi parekh</a>.</p>
+                  <p>Check mark animation by <a target="_blank" href="https://lottiefiles.com/796-check-mark ">Ryan Allen</a>.</p>
                   <p>For more free and premium animations to add to your website/apps: <a target="_blank" href="https://lottiefiles.com/">LottieFiles.com</a>.</p>
                   <p>Bootstrap templates by <a target="_blank" href="https://startbootstrap.com/">Start Bootstrap</a>.</p>
                   <p>Hover effect over template images by <a target="_blank" href="https://bestjquery.com/tutorial/hover-effect/demo262/">bestjquery.com</a>.</p>
