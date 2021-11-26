@@ -1,464 +1,840 @@
+
 <!DOCTYPE html>
-<html lang="en" manifest="manifest.appcache">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Joshua van Niekerk - Web Developer, App Developer, Investor, Motivator" />
-        <meta name="author" content="Joshua van Niekerk" />
-        <title>Joshua van Niekerk - Freelancer</title>
-        <!-- CONTACT FORM V1 REFERENCES -->
-        <!--===============================================================================================-->
-          <link rel="icon" type="image/png" href="ContactFrom_v1/images/icons/favicon.ico"/>
-        <!--===============================================================================================-->
-          <link rel="stylesheet" type="text/css" href="ContactFrom_v1/vendor/bootstrap/css/bootstrap.min.css">
-        <!--===============================================================================================-->
-          <link rel="stylesheet" type="text/css" href="ContactFrom_v1/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-        <!--===============================================================================================-->
-          <link rel="stylesheet" type="text/css" href="ContactFrom_v1/css/util-min.css">
-          <link rel="stylesheet" type="text/css" href="ContactFrom_v1/css/main-min.css">
-        <!--===============================================================================================-->
-        <!-- Font Awesome icons (free version)-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<html lang="en">
 
-        <link rel="icon" type="image/png" href="ContactFrom_v1/images/icons/favicon.ico"/>
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta
+      name="description"
+      content="The Résumé of Web Developer Freelancer, Joshua van Niekerk."
+    />
+    <meta name="author" content="Joshua van Niekerk" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 
-        <!-- Bootstarp 5 -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon2.svg" />
+  <title>
+    Josh's Résumé
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  
+  <link href="assets/css/blk-design-system.css" rel="stylesheet" />
 
-        <link href="css/styles-min.css" rel="stylesheet" />
-    </head>
-    <body data-bs-spy="scroll" data-bs-target="#list-example" id="page-top" class="">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Joshua van Niekerk</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about">About</a></li>
-                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="get-to-know#hire-me">Collaborate</a></li>
-                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="apps/goal-symmetry/app">Goal Symmetry (App)</a></li>
-                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="motivation">Motivation (Blog)</a></li>
+  <link href="assets/css/get-to-know-min.css" rel="stylesheet" />
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8820105849b743b8cd9384883/8ea0d3d9761341985835e326c.js");</script>
+</head>
 
-                    </ul>
-                </div>
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <span class="d-block d-lg-none">Josh's Résumé</span>
+          <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile-pic-2020-min.jpeg" alt="" /></span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+      
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+          <div class="row">
+            <div class="col-12 collapse-close text-center">
+              <ul class="navbar-nav justify-content-center align-items-center">
+                <li id="close-button" class="nav-item">
+                  <a class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapse">
+                    <i id="navbar-collapse-heading" class="tim-icons icon-simple-remove text-center pl-1"></i>
+                  </a>
+                </li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#app-dev">App Development</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#web-dev">Web Development</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#investing">Investing</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#motivation">Personal Development</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#other-int">Other Interests</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#myModal2" href="">Contact</a></li>
+            </ul>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container h-100">
-              <div class="row">
-                <div class="col-12 col-sm-6 d-flex align-items-center">
+          </div>
+
+          <div class="row">
+
+          </div>
+      </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container-fluid p-0">
+
+      <!-- HOME LINK -->
+      <div class="fixed-floating-home-button social-icons">
+        <a class="social-icon" href="https://www.developerforlife.com"><i class="fas fa-home"></i></a>
+      </div>
+
+      <!-- About -->
+      <section class="resume-section" id="about">
+          <div class="resume-section-content">
+              <h1 class="mb-0 text-white">
+                  Joshua
+                  <span class="text-primary">van Niekerk</span>
+              </h1>
+              <div class="subheading mb-5 text-white-50">
+                  App Developer · Web Developer · Investor · <a target="_blank" href="https://www.sagaciousapps.com">Business</a> Owner · Problem Solver · Student Of Life · Social Athlete
+              </div>
+              <p class="lead mb-5">
+                Here you find an intellegent, strong willed, goal-oriented individual that has
+                many talents. Running a business as well as building Apps & Websites may be Josh's primary career interests at this time,
+                however, investing in his mind as well as exploring monitary investment opportunities is
+                beginning to take up a lot of his time and interest. As far as personal development goes, Josh
+                absolutely resonates with it. He understands that developing one's own mind is essential for 
+                building meaningful relationships, solving problems and achieving success.
+              </p>
+              <div class="social-icons">
+                  <a class="social-icon" data-toggle="modal" data-target="#social-icons-modal" href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a class="social-icon" target="_blank" href="https://github.com/programmmerjosh"><i class="fab fa-github"></i></a>
+                  <a class="social-icon" data-toggle="modal" data-target="#social-icons-modal" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="social-icon" data-toggle="modal" data-target="#social-icons-modal" href=""><i class="fab fa-facebook-f"></i></a>
+              </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="social-icons-modal" tabindex="-1" role="dialog" aria-labelledby="ocial-icons-modalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h6 class="contact1-form-title">Whoops!</h6>
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
                   <div class="">
-                    <h1 class="text-capitalize">Need a beautifully designed responsive website that
-                      captures your audience’s attention and that turns them into customers?
-                    </h1>
-                    <hr>
-                    <h2 class="text-capitalize">You've come to the right place.</h2>
-                    <hr>
-                    <a class="pb-3" href="" data-toggle="modal" data-target="#get-in-touch-modal">
-                      <button class="btn btn-primary mx-auto text-capitalize" type="submit">Get a free quote</button>
-                    </a>
+                    Sorry. Josh doesn't spend much time, if at all, on social media.
+                    This button is just for visual aesthetics. The GitHub link does
+                    work though. Kind regards.
                   </div>
                 </div>
-
-                <!-- nice animated image/gif here businessy -->
-                <div class="col-12 col-sm-6 pb-4">
-                  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                  <lottie-player id="man-on-computer-animation" src="https://assets5.lottiefiles.com/packages/lf20_mlp3zxve.json"
-                  background="transparent"  speed="0.9" loop
-                  autoplay></lottie-player>
-                </div>
-              </div>
-
-
-            </div>
-        </header>
-
-        <!-- Modal -->
-        <div class="modal fade" id="get-in-touch-modal" tabindex="-1" role="dialog"
-        aria-labelledby="get-in-touch-modalTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-
-                <div class="container">
-                  <div class="row">
-                    <div class="col-12">
-                      <h6 class="contact1-form-title">Free Quote</h6>
-                      <em class="quote-note text-black-50">
-                        NOTE: <span class="color-text-1">All fields are required</span>. You will only be allowed to submit one quote request.
-                        By submitting a quote request,
-                        you also agree to subscribe to the mailing list. You can find a link to unsubscribe when
-                        receiving any emails from me if you so desire.
-                      </em>
-                    </div>
-                  </div>
-                </div>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-
-                  <form class="contact1-form validate-form"
-                  action="https://github.us1.list-manage.com/subscribe/post?u=8820105849b743b8cd9384883&amp;id=3bcc0bf3ca"
-                  method="POST"
-                  name="mc-embedded-subscribe-form" class="validate" data-validate
-                  >
-                  <!--  -->
-
-                    <div class="wrap-input1 validate-input" data-validate="Name is required">
-                      <input class="input1" type="text" name="NAME" placeholder="Name">
-                      <span class="shadow-input1"></span>
-                    </div>
-
-                    <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                      <input class="input1" type="text" name="EMAIL" placeholder="Email">
-                      <span class="shadow-input1"></span>
-                    </div>
-
-
-                    <div class="wrap-input1 validate-input" data-validate="Message is required">
-                      <textarea class="input1" name="MESSAGE"
-                      placeholder="Add your desired website scale/size: eg. Need 3 web pages. Home page (5 sections). About page (2 sections). Blog page (4 sections)."
-                      ></textarea>
-                      <span class="shadow-input1"></span>
-                    </div>
-
-                    <div id="mce-responses" class="clear">
-                  		<div class="response" id="mce-error-response" style="display:none"></div>
-                  		<div class="response" id="mce-success-response" style="display:none"></div>
-                  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8820105849b743b8cd9384883_3bcc0bf3ca" tabindex="-1" value=""></div>
-
-                    <div class="container-contact1-form-btn">
-                      <button type="submit" name="subscribe" class="contact1-form-btn">
-                        <span>
-                          Submit Quote Request
-                          <i class="far fa-paper-plane" aria-hidden="true"></i>
-                        </span>
-                      </button>
-                    </div>
-                  </form>
               </div>
             </div>
           </div>
-          <!-- <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
-          <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script> -->
+      </section>
+      <hr class="m-0" />
+      <!-- App Development -->
+      <section class="resume-section bg-light" id="app-dev">
+        <div class="text-content col-10 col-lg-8 offset-1">
+
+          <h1 class="text-dark"><span class="">App </span>
+            <span class="app-dev-icon"><i class="fab fa-app-store"></i></span>
+            <span class="app-dev-icon"><i class="fas fa-rocket"></i></span>
+            <span class="app-dev-icon"><i class="fas fa-dove"></i></span>
+            <span class="">Development</span></h1>
+
+          <p id="ios-info" class="text-dark">
+            Josh started getting into iOS development in 2016 shortly after having completed an
+            introductory Computer Science course through Harvard University. Josh then was introduced
+            to Xcode and the
+            two main languages used in iOS development, Objective-C and Swift. It was at that
+            moment; Josh decided that developing iPhone and iPad apps was what he wanted to
+            do. Starting with Objective-C, Josh swiftly moved over to Swift and found it to be the
+            more suitable and broadly utilised choice across the board. After four years, Josh had
+            managed to produce a number of different apps ranging from simple calculation apps to
+            machine learning to augmented reality.</p>
+            <p id="ios-info" class="text-dark">Josh has grown in leaps and bounds, but his development
+            journey doesn't end there. As of July 2020, Josh has invested in time and education to transition
+            over to cross platform app development using Google's Flutter. Now the limitations of just the Apple
+            market are no more. Being able to cater to the Apple as well as the Android market has opened up a lot more
+            opportunities and potential. 
+            <p id="ios-info" class="text-dark">
+              The next logic step was to start a business. That's exactly what Josh has done. Keep an eye out for 
+              some great productivity apps to hit the market. They'll be produced by Josh and his team at 
+              <a target="_blank" href="https://www.sagaciousapps.com">Sagacious Apps Ltd</a>. Have an great app idea and 
+              need some help on how to get started? 
+              <a data-toggle="modal" data-target="#myModal2" href="">Drop Josh a message</a>.
         </div>
+      </section>
+      <!-- Web Development -->
+      <section class="resume-section" id="web-dev">
+        <div class="text-content col-10 offset-1 col-lg-8">
+          <h1 class="text-white">Web Development</h1>
+          <p id="web-info" class="text-pearl">
+            Josh&#39;s exposure to web development goes a bit further back than his app development exposure. 
+            He began learning the
+            fundamentals of HTML, CSS, JS and SQL in 2013, continuing through 2015 when he
+            studied Computer Science and IT in South Africa. Despite having learnt a lot in those
+            three years of studies, Josh endeavoured to broaden his skill set by learning and
+            pursuing mobile application development. Nevertheless, when 2020 came around, there were a few
+            web development opportunities that arose. So, Josh made the decision to relearn, update some old
+            skills and build upon them by jumping right into learning Bootstrap & experimenting with jQuery. 
+            </p>
+            <p id="web-info" class="text-pearl">
+              Josh has regained his confidence in web development and is now more than capable of producing professional 
+              and effiicient business level websites for clients. Feel free to browse through his entire 
+              
+              <a href="https://www.developerforlife.com">freelancer 
+                website</a>
+               as well as his 
+               <a target="_blank" href="https://www.sagaciousapps.com">business website</a>
+               . They may each be built ontop of Bootstrap templates as a foundation,
+              however all the customisation & interactivity was all him.
+            </p>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Projects -->
+      <section class="resume-section align-items-center" id="projects">
+          <div class="resume-section-content">
+              <h1 class="mb-3 text-white">Projects</h1>
 
-        <!-- Templates -->
-        <section class="bg-light page-section" id="templates-for-display">
-          <!-- section title and subtitile -->
-          <div class="container">
-            <div class="row">
-              <div class="col-12 d-flex align-items-center">
-                <div class="">
-                  <h1 class="text-capitalize">Get some inspiration and ideas for your new website
-                  </h1>
-                  <p class="text-black-50">See something you like here? Let me know when requesting your <a href="" data-toggle="modal" data-target="#get-in-touch-modal">free quote</a>.</p>
-                  <hr>
-                  <!-- <p class="text-black-50">STEP 1: Choose a template you like.</p>
-                  <p class="text-black-50">STEP 2: Make a note of the changes/customisations you would like: eg. custom background images,
-                  changes to the layout of the content, custom color scheme, animations, fonts etc.</p>
-                  <p class="text-black-50">STEP 3: Once you've got your plan together, submit your desired webpage scale/size within your
-                    <a href="" data-toggle="modal" data-target="#get-in-touch-modal">free quote</a>. The specifics can be discussed in
-                    more detail when you are happy with your quote. The quote will be valid for 7 days.<p/> -->
-                </div>
-              </div>
-            </div>
-          </div>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <!-- PROJECT: GOAL SYMMETRY -->
+                  <div class="carousel-item active mb-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-9 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                <div id="project-title" class="subheading d-inline-block text-primary">
+                                  Goal Symmetry <a target="_blank" href="https://www.sagaciousapps.com/apps" class="text-white hide-biggerthan-xxs">
+                                    <i class="far fa-question-circle"></i>
+                                  </a>
+                                </div>
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a href="https://www.sagaciousapps.com/apps">
+                                    <a class="btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
+                                </div>
+                              </div>
+                              <p>Mobile Application - available on iOS and Android.</p>
+                              <p>Josh wanted to create the ultimate goal setting, self-studying, personal development blueprint tool. 
+                                So, here it is! He's also got some exciting updates already lined up for the new year.</p>
+                          </div>
 
-            <div class="new">
-
-              <!-- template gallery -->
-              <div class="container">
-                <div class="row">
-                    <!-- Freelancer -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/freelancer">
-                        <div class="box">
-                          <img src="https://assets.startbootstrap.com/img/screenshots/themes/freelancer.medium.webp">
-                          <div class="box-content">
-                            <div class="inner-content">
-                              <h3 class="title">Freelancer</h3>
-                              <ul class="icon"><li><i class="fa fa-search"></i></li></ul>
-                            </div>
+                          <div class="col-lg-3 col-6 text-center">
+                            <a href="https://www.sagaciousapps.com/apps"><img class="project-img" src="assets/img/Simulator Screen Shot - iPhone 12 Pro - 2020-12-01 at 13.06.29_iphonexspacegrey_portrait-min.png" alt=""></a>
                           </div>
                         </div>
-                      </a>
+                          
                     </div>
-                    <!-- Agency -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/agency">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/themes/agency.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">Agency</h3>
-                                    <!-- <span class="post">Web developer</span> -->
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                        <!-- <li><a href="#"><i class="fa fa-link"></i></a></li> -->
-                                    </ul>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                        <li class="list-inline-item"><i class="fab fa-google"></i><p class="tool-description">Flutter</p></li>
+                        <li class="list-inline-item"><i class="fas fa-code"></i><p class="tool-description">Dart</p></li>
+                        <li class="list-inline-item"><i class="fab fa-app-store-ios"></i><p class="tool-description">Xcode</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: SAGACIOUS APPS -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-8 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                  <div id="project-title" class="subheading d-inline text-primary">
+                                    SAGACIOUS APPS LTD <a target="_blank" href="https://www.sagaciousapps.com" class="text-white hide-biggerthan-xxs">
+                                      <i class="far fa-question-circle"></i>
+                                    </a>
+                                  </div>
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a target="_blank" href="https://www.sagaciousapps.com">
+                                    <a class="btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
                                 </div>
-                            </div>
+                              </div>
+                              <p>
+                                Business website of a mobile application development limited company. 
+                                Josh actually started this company himself in October 2021.
+                            </p>
+                          </p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://www.sagaciousapps.com"><img class="project-img" src="assets/img/Screenshot 2021-11-23 at 20.41.04-min.png" alt=""></a>
+                          </div>
                         </div>
-                        </a>
                     </div>
-                    <!-- Creative -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/creative">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/themes/creative.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">Creative</h3>
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                    </ul>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                      <li class="list-inline-item"><i class="fab fa-html5"></i><p class="tool-description">HTML5</p></li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt"></i><p class="tool-description">CSS3</p></li>
+                      <li class="list-inline-item"><i class="fab fa-js"></i><p class="tool-description">jQuery</p></li>
+                      <li class="list-inline-item"><i class="fab fa-bootstrap"></i><p class="tool-description">Bootstrap</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: FREELANCER WEBSITE -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-8 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                <div id="project-title" class="subheading d-inline text-primary">
+                                 FREELANCER WEBSITE <a target="_blank" href="https://www.developerforlife.com" class="text-white hide-biggerthan-xxs">
+                                  <i class="far fa-question-circle"></i>
+                                  </a>
                                 </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <!-- Grayscale -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/grayscale">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/themes/grayscale.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">Grayscale</h3>
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                    </ul>
+                                
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a target="_blank" href="https://www.developerforlife.com">
+                                    <a class="btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
                                 </div>
-                            </div>
+                              </div>
+                              <p>
+                                Web developer freelancer website built for and by himself. 
+                            </p>
+                            <p>Josh has started freelancing to produce 
+                              quality websites for new startups or a companies just looking to upgrade 
+                              their current site.</p>
+                          </p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://www.developerforlife.com"><img class="project-img" src="assets/img/Screenshot 2021-11-23 at 19.58.23-min.png" alt=""></a>
+                          </div>
                         </div>
-                        </a>
                     </div>
-                    <!-- Resume -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/resume">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/themes/resume.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">Resume</h3>
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                    </ul>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                      <li class="list-inline-item"><i class="fab fa-html5"></i><p class="tool-description">HTML5</p></li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt"></i><p class="tool-description">CSS3</p></li>
+                      <li class="list-inline-item"><i class="fab fa-js"></i><p class="tool-description">jQuery</p></li>
+                      <li class="list-inline-item"><i class="fab fa-bootstrap"></i><p class="tool-description">Bootstrap</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: Résumé WEBSITE -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-8 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                  <div id="project-title" class="subheading d-inline text-primary text-uppercase">
+                                    Résumé WEBSITE <a target="_blank" href="https://www.joshua-resume.com" class="text-white hide-biggerthan-xxs">
+                                      <i class="far fa-question-circle"></i>
+                                    </a>
+                                  </div>
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a target="_blank" href="https://www.joshua-resume.com">
+                                    <a class="btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
                                 </div>
-                            </div>
+                              </div>
+                              <p>
+                                Résumé/portfolio website built for and by himself. Every developer needs a portfolio to showcase and 
+                                demonstrate some skills and previous projects, so here you go.
+                            </p>
+                          </p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://www.joshua-resume.com"><img class="project-img" src="assets/img/Screenshot 2021-11-23 at 19.59.32-min.png" alt=""></a>
+                          </div>
                         </div>
-                        </a>
                     </div>
-                    <!-- One Page Wonder -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/one-page-wonder">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/themes/one-page-wonder.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">One Page Wonder</h3>
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                    </ul>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                      <li class="list-inline-item"><i class="fab fa-html5"></i><p class="tool-description">HTML5</p></li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt"></i><p class="tool-description">CSS3</p></li>
+                      <li class="list-inline-item"><i class="fab fa-js"></i><p class="tool-description">jQuery</p></li>
+                      <li class="list-inline-item"><i class="fab fa-bootstrap"></i><p class="tool-description">Bootstrap</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: Blog WEBSITE -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-8 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                  <div id="project-title" class="subheading d-inline text-primary text-uppercase">
+                                    BLOG SITE <a target="_blank" href="https://www.think-write-grow.com" class="text-white hide-biggerthan-xxs">
+                                      <i class="far fa-question-circle"></i>
+                                    </a>
+                                  </div>
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a target="_blank" href="https://www.think-write-grow.com">
+                                    <a class="btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
                                 </div>
-                            </div>
+                              </div>
+                              <p>
+                                When you've got things to share with the world, you should share them, shouldn't you? This 
+                                is Josh's Blog. Built the website specifically for the purpose of sharing ideas however 
+                                controversial they may be. Check it out.
+                            </p>
+                          </p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://www.think-write-grow.com"><img class="project-img" src="assets/img/Screenshot 2021-11-23 at 20.38.42-min.png" alt=""></a>
+                          </div>
                         </div>
-                        </a>
                     </div>
-                    <!-- Business Casual -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/business-casual">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/themes/business-casual.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">Business Casual</h3>
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                    </ul>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                      <li class="list-inline-item"><i class="fab fa-html5"></i><p class="tool-description">HTML5</p></li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt"></i><p class="tool-description">CSS3</p></li>
+                      <li class="list-inline-item"><i class="fab fa-js"></i><p class="tool-description">jQuery</p></li>
+                      <li class="list-inline-item"><i class="fab fa-bootstrap"></i><p class="tool-description">Bootstrap</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: 5 PRJOECTS WITH BOOTSTRAP -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-8 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                  <div id="project-title" class="subheading d-inline text-primary text-uppercase">
+                                    Bootstrap 4 From Scratch With 5 Projects <a target="_blank" href="https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects/" class="text-white hide-biggerthan-xxs">
+                                      <i class="far fa-question-circle"></i>
+                                    </a>
+                                  </div>
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a target="_blank" href="https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects/">
+                                    <a class="btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
                                 </div>
-                            </div>
+                              </div>
+                              <p>
+                                Udemy course on Bootstrap web development. 
+                                This course involves creating 5 real world themes.
+                            </p>
+                            <p>See these projects: <a target="_blank" href="https://github.com/programmmerjosh/Looplab-Bootstrap-theme">LoopLap</a>,
+                              <a target="_blank" href="https://github.com/programmmerjosh/Mizuxe-Bootstrap-theme">Mizuxe</a>,
+                              <a target="_blank" href="https://github.com/programmmerjosh/Blogen-Bootstrap-theme">Blogen</a>,
+                              <a target="_blank" href="https://github.com/programmmerjosh/Glozzom-Bootstrap-theme">Glozzom</a>,
+                              <a target="_blank" href="https://github.com/programmmerjosh/Portfoligrid-Bootstrap-theme">Portfoligrid</a>.
+                          </p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects/"><img class="project-img" src="assets/img/Screenshot 2021-11-23 at 19.56.36-min.png" alt=""></a>
+                          </div>
                         </div>
-                        </a>
                     </div>
-                    <!-- New Age -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/new-age">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/themes/new-age.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">New Age</h3>
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                    </ul>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                      <li class="list-inline-item"><i class="fab fa-html5"></i><p class="tool-description">HTML5</p></li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt"></i><p class="tool-description">CSS3</p></li>
+                      <li class="list-inline-item"><i class="fab fa-js"></i><p class="tool-description">jQuery</p></li>
+                      <li class="list-inline-item"><i class="fab fa-bootstrap"></i><p class="tool-description">Bootstrap</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: LONDON APP BREWERY -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row align-items-start justify-content-center mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-8 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                <div id="project-title" class="subheading d-inline text-primary">
+                                  London App Brewery <a target="_blank" href="https://www.udemy.com/course/ios-13-app-development-bootcamp/" class="text-white hide-biggerthan-xxs">
+                                    <i class="far fa-question-circle"></i>
+                                  </a>
                                 </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <!-- Small Business -->
-                    <div class="col-8 offset-2 offset-sm-0 col-md-4 col-sm-6 pb-4">
-                      <a target="_blank" href="https://startbootstrap.com/previews/small-business">
-                        <div class="box">
-                            <img src="https://assets.startbootstrap.com/img/screenshots/templates/small-business.medium.webp">
-                            <div class="box-content">
-                                <div class="inner-content">
-                                    <h3 class="title">Small Business</h3>
-                                    <ul class="icon">
-                                        <li><i class="fa fa-search"></i></li>
-                                    </ul>
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a target="_blank" href="https://www.udemy.com/course/ios-13-app-development-bootcamp/">
+                                    <a class=" btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
                                 </div>
-                            </div>
+                              </div>
+                              <p>Course Projects - course projects through one of London App Brewery's amazing Udemy courses.</p>
+                              <p><a target="_blank" href="https://github.com/programmmerjosh/Twittermenti">Twittermenti</a>,
+                                <a target="_blank" href="https://github.com/programmmerjosh/Seefood">Seefood</a>,
+                                <a target="_blank" href="https://github.com/programmmerjosh/Clima">Clima</a>,
+                                <a target="_blank" href="https://github.com/programmmerjosh/Todoey">Todoey</a>,
+                                <a target="_blank" href="https://github.com/programmmerjosh/FlappyBird">Flappy Bird</a>,
+                                to name just a few, covered many core fundamentals
+                              in the app development technologies used today.</p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"><img class="project-img" src="assets/img/Screenshot 2021-02-16 at 16.16.58-min.png" alt=""></a>
+                          </div>
                         </div>
-                        </a>
+                          
                     </div>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                        <li class="list-inline-item"><i class="fas fa-robot"></i><p class="tool-description">CoreML</p></li>
+                        <li class="list-inline-item"><i class="fas fa-code"></i><p class="tool-description">Swift</p></li>
+                        <li class="list-inline-item"><i class="fab fa-app-store-ios"></i><p class="tool-description">Xcode</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: BOOTSTRAP TO WORDPRESS -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row align-items-start justify-content-center mb-5">
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-lg-8 col-12">
+                            <div class="d-flex align-items-center mb-3">
+                                  <div id="project-title" class="subheading d-inline text-primary">
+                                    Bootstrap To WordPress <a target="_blank" href="https://www.udemy.com/course/bootstrap-to-wordpress/" class="text-white hide-biggerthan-xxs">
+                                      <i class="far fa-question-circle"></i>
+                                    </a>
+                                  </div>
+                                  <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                    <a target="_blank" href="https://www.udemy.com/course/bootstrap-to-wordpress/">
+                                      <a class=" btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                    </a>
+                                  </div>
+                              </div>
+                              <p>Course Project - Bootstrap To Wordpress Udemy course by Brad Hussey</p>
+                              <p>Static webpage (HTML, CSS, JS & Bootstrap) converted into a dynamic WordPress site.
+                              See the <a target="_blank" href="https://github.com/programmmerjosh/BootstrapToWordPress">project</a>.
+                          </p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://github.com/programmmerjosh/BootstrapToWordPress"><img class="project-img" src="assets/img/Screenshot 2021-02-16 at 16.24.26-min.png" alt=""></a>
+                          </div>
+                        </div>
+                          
+                    </div>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i><p class="tool-description">HTML5</p></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i><p class="tool-description">CSS3</p></li>
+                        <li class="list-inline-item"><i class="fab fa-js"></i><p class="tool-description">JavaScript</p></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i><p class="tool-description">Bootstrap</p></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i><p class="tool-description">Wordpress</p></li>
+                    </ul>
+                  </div>
+                  <!-- PROJECT: CS50 -->
+                  <div class="carousel-item mb-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="row d-flex align-items-center justify-content-center">
+                          <div class="col-lg-8 col-12">
+                              <div class="d-flex align-items-center mb-3">
+                                  <div id="project-title" class="subheading d-inline text-primary">
+                                    Harvard's CS50 <a target="_blank" href="https://www.edx.org/course/cs50s-introduction-to-computer-science" class="text-white hide-biggerthan-xxs">
+                                      <i class="far fa-question-circle"></i>
+                                    </a>
+                                  </div>
+                                <div id="more-info-btn" class="d-inline show-biggerthan-xxs p-3">
+                                  <a target="_blank" href="https://www.edx.org/course/cs50s-introduction-to-computer-science">
+                                    <a class="btn text-white btn-rounded show-biggerthan-xxs">More Info</a>
+                                  </a>
+                                </div>
+                              </div>
+                              <p>Course Projects - CS50 covered core computer science fundamentals such as
+                              abstraction, algorithms, data structures, encapsulation, resource management,
+                              security, software engineering, and web development.</p>
+                              <p>See these projects: <a target="_blank" href="https://github.com/programmmerjosh/cs50-pset6">pset6</a>,
+                                <a target="_blank" href="https://github.com/programmmerjosh/cs50-pset7">pset7</a>,
+                                <a target="_blank" href="https://github.com/programmmerjosh/cs50-pset8">pset8</a>.
+                          </p>
+                          </div>
+
+                          <div class="col-lg-4 col-6">
+                            <a target="_blank" href="https://www.edx.org/course/cs50s-introduction-to-computer-science"><img class="project-img" src="assets/img/Screenshot 2021-02-16 at 16.39.16-min.png" alt=""></a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="subheading mb-3 text-white-50 text-center text-lg-left">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons text-center text-lg-left">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i><p class="tool-description">HTML5</p></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i><p class="tool-description">CSS3</p></li>
+                        <li class="list-inline-item"><i class="fab fa-js"></i><p class="tool-description">JavaScript</p></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i><p class="tool-description">Python</p></li>
+                        <li class="list-inline-item"><i class="fas fa-code"></i><p class="tool-description">C Programming</p></li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only text-white">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only text-white">Next</span>
+                </a>
+              </div>
+
+
+          </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Investing -->
+      <section class="resume-section bg-light" id="investing">
+          <div class="resume-section-content">
+              <h1 class="mb-5 text-dark">Investing</h1>
+
+              <div class="row">
+                <div class="invest-img-wrap col-4 ">
+                  <img src="assets/img/a-book-g269491272_1280.jpg" alt="">
+                </div>
+                <div class="invest-img-wrap col-4 ">
+                  <img src="assets/img/gold-g61f193c4d_1280.jpg" alt="">
+                </div>
+                <div class="invest-img-wrap col-4 ">
+                  <img src="assets/img/buildings-gff4722a4d_1280.jpg" alt="">
                 </div>
               </div>
 
-            </div>
+              <p class="mt-3 text-dark">
+                For a number of years now, Josh has dabbled in trading crypto currencies and common stocks.
+                It has become apparent that trading cannot be confused with investing. Josh has grown in his
+                understanding of the market and its fluctuations. He is no longer seeking quick optimistic
+                and unrealistic returns. He understands that no-one can accurately and consistenlty predict
+                exactly when a particular market or stock will go up or down.
+              </p>
+              <p class="mb-0 text-dark">
+                Josh now focuses on long term portfolio investments, financial education and soon to be
+                working on passive income by means of real estate investments. If you are reading this
+                and perhaps have a similar investment understanding and/or goals; feel free to <a  data-toggle="modal" data-target="#myModal2" href="">get in touch</a>
+                with him. Josh may just be able to partner with you on something.
+              </p>
+          </div>
 
+      </section>
+      <!-- Motivation -->
+      <section class="resume-section bg-dark" id="motivation">
+          <div class="resume-section-content">
+              <h1 class="mb-5 text-white">Personal Development</h1>
+              <p class="p text-baby-blue"><em class="fam-quotes"> “You will get all you want in life, if you help enough other people get what they want.”</em> Zig Ziglar.</p>
+              <p class="p text-pearl"><em class="fam-quotes">"If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much."</em> Jim Rohn</p>
+              <p class="p text-baby-blue"><em class="fam-quotes">"Formal education will make you a living; self-education will make you a fortune."</em> Jim Rohn</p>
+              <p class="p text-pearl"><em class="fam-quotes">“The Man who says he can, and the man who says he can not.. Are both correct.”</em> Confusius.</p>
+              <p class="p text-baby-blue"><em class="fam-quotes">"You can't use up creativity. The more you use, the more you have."</em> Oscar Wilde.</p>
 
-        </section>
-
-        <!-- Portfolio-->
-        <div id="portfolio" class="">
-
-            <div class="container-fluid d-flex align-items-center justify-content-center">
-                <div class="row d-flex justify-content-around">
-                    <!-- goal symmetry -->
-                    <div id="main-category-nav-box" class="col-lg-4 col-12">
-                        <div class="text-center">
-                          <a target="_blank" href="apps/goal-symmetry/app"><h4>Goal Symmetry</h4></a>
+              <p class="text-pearl">
+                These are just a few of the most powerful and inspiring quotes out there. May they infiltrate and manifest in
+              your mind. If something can encourage and/or inspire you to believe in yourself and in your limitless
+              potential; don't take that something for granted.
+              </p>
+              <div class="row">
+                <div class="col-sm-6 offset-sm-3 col-12 d-flex justify-content-center">
+                   <a href="https://www.think-write-grow.com"><button href="" class="btn btn-primary" name="mot"
+                   >Visit Josh's Blog</button></a>
+                </div>
+              </div>
+          </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Other Interests -->
+      <section class="resume-section" id="other-int">
+          <div class="resume-section-content">
+              <h1 class="mb-5 text-white">Other Interests</h1>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div class="flex-grow-1">
+                      <h3 class="mb-0 text-primary">Sports</h3>
+                      <div class="subheading mb-3 text-white-50">Rugby · Soccer · Squash · Table Tennis</div>
+                      <div class="p text-white">Rugby most of all - sevens and touch are Josh's preferences when it comes to playing.
+                        He also enjoys playing social soccer, squash and table tennis. He'd probably enjoy
+                      anything that's fast paced, very competitive and requires a lot of coordination & agility.
+                    </div>
+                  </div>
+                    <div class="j-img-gallery">
+                      <div class="row d-flex justify-content-center">
+                        <div class="col-5">
+                          <img class="gal-img" src="assets/img/rugby_sevens-min.jpg" alt="">
                         </div>
-                        <a class="portfolio-box d-flex align-items-stretch justify-content-center" target="_blank" href="apps/goal-symmetry/app">
-                            <img class="img-fluid" src="img/the_big_app-min.png" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">The Big App</div>
-                                <div class="project-name">Goal Symmetry</div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- credentials -->
-                    <div id="main-category-nav-box" class="col-lg-4 col-12">
-                      <div class="text-center">
-                      <a target="_blank" href="get-to-know"><h4>Credentials</h4></a>
+                        <div class="col-5">
+                          <img class="gal-img" src="assets/img/soccer_1-min.jpg" alt="">
+                        </div>
+                        <div class="col-5">
+                          <img class="gal-img" src="assets/img/squash_1-min.jpg" alt="">
+                        </div>
+                        <div class="col-5">
+                          <img class="gal-img" src="assets/img/table_tennis_1-min.jpg" alt="">
+                        </div>
                       </div>
-                        <a class="portfolio-box d-flex align-items-stretch justify-content-center" target="_blank" href="get-to-know">
-                            <img class="img-fluid" src="img/josh-suit-2020-min.jpeg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Find Out More</div>
-                                <div class="project-name">App Developer, Web Developer, Investor, Motivator</div>
-                            </div>
-                        </a>
                     </div>
-                    <!-- motivation -->
-                    <div id="main-category-nav-box" class="col-lg-4 col-12">
-                      <div class="text-center">
-                      <a target="_blank" href="motivation"><h4 id="motivation-h4">Motivation</h4></a>
-                      </div>
-                        <a class="portfolio-box d-flex align-items-stretch justify-content-center" target="_blank" href="motivation">
-                            <img class="img-fluid" src="img/stones-min.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Motivational Blog</div>
-                                <div class="project-name">Be Inspired. Make A Difference</div>
-                            </div>
-                        </a>
+              </div>
+
+              <div class="d-flex flex-nowrap bd-highlight flex-column flex-md-row justify-content-between">
+                <div class="order-2 order-md-1 j-img-gallery">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-5">
+                      <img class="gal-img" src="assets/img/acoustic_1-min.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                      <img class="gal-img" src="assets/img/bass_1-min.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                      <img class="gal-img" src="assets/img/drums_1-min.jpg" alt="">
+                    </div>
+                    <div class="col-5">
+                      <img class="gal-img" src="assets/img/singer_1-min.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="order-1 order-md-2 flex-grow-1">
+                    <h3 class="mb-0 text-primary">Music</h3>
+                    <div class="subheading mb-3 text-white-50">Acoustic Guitar · Bass · Drums</div>
+                    <div class="p text-white">
+                      Josh has played each of the mentioned instruments for many years. He's self taught
+                      and plays by ear. Sorry, no sheet music.
+                      Believe it or not he can also sing a little. He's mostly played
+                      in Praise & Worship teams and Christian bands.
+                      Now, playing and singing is more of a hobby. Though, watching
+                      and listening to other artists is still a big part of Josh's life.
                     </div>
                 </div>
-            </div>
+              </div>
+          </div>
+      </section>
+      <hr class="m-0" />
+  </div>
+
+  <!-- Form Modal -->
+  <div
+  class="modal fade modal-black"
+  id="myModal2"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-hidden="true"
+        >
+          <i class="tim-icons icon-simple-remove text-white"></i>
+        </button>
+        <div class="text-muted text-center ml-auto mr-auto">
+          <h3 class="mb-0">Contact</h3>
         </div>
+      </div>
+      <div class="modal-body">
+        <div class="btn-wrapper text-center">
+          <!-- could put something here -->
+        </div>
+        <div class="text-left text-muted mb-4 mt-3">
+          <small class="text-white-50">Feel free to:
+            <ul>
+              <li>Ask any questions about my services</li>
+              <li>Share an app or business idea</li>
+              <li>Ask for some advice</li>
+            </ul>
+          </small>
+        </div>
+        <!-- THIS IS THE FORMSPREE VERSION -->
+        <!-- www.joshua-resume.com has the mailchimp version -->
+        <form class="the-modal-form validate" role="form"
+        action="https://formspree.io/f/xlezrbgj" 
+        method="post" 
+        id="formspree-action"
+        >
+          <div class="form-group mb-3">
+            <div class="input-group input-group-alternative">
+              <div class="my-input-item">
 
-        <!-- Credits -->
-        <section class=" p-5 bg-dark">
+                <span class="input-group-text pr-3">
+                  Name
+                </span>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-12 d-flex align-items-center">
-                <div id="credits">
-                  <h1>Credits</h1>
-                  <hr>
-                  <h2 class="mt-2 pb-2">Thanks to these creators for their free for commercial use assets.</h2>
-                  <p>Man on computer animation by <a target="_blank" href="https://lottiefiles.com/44387-man-working-on-computer ">bhumi parekh</a>.</p>
-                  <p>Check mark animation by <a target="_blank" href="https://lottiefiles.com/796-check-mark ">Ryan Allen</a>.</p>
-                  <p>For more free and premium animations to add to your website/apps: <a target="_blank" href="https://lottiefiles.com/">LottieFiles.com</a>.</p>
-                  <p>Bootstrap templates by <a target="_blank" href="https://startbootstrap.com/">Start Bootstrap</a>.</p>
-                  <p>Hover effect over template images by <a target="_blank" href="https://bestjquery.com/tutorial/hover-effect/demo262/">bestjquery.com</a>.</p>
-                  <p>Additional resource to view more free hover effects: <a href="https://freefrontend.com/bootstrap-hover-effects/">FreeFrontEnd.com</a>.</p>
-                </div>
               </div>
+
+              <input
+                class="form-control required"
+                placeholder="Name"
+                type="name" 
+                name="name"
+              />
+
             </div>
           </div>
 
+          <div class="form-group mb-3">
+            <div class="input-group input-group-alternative">
+              <div class="">
 
-        </section>
+                <span class="input-group-text pr-3">
+                  Email
+                </span>
 
-        <!-- Footer-->
-        <footer>
-          <div class="container">
-            <p>&copy; Joshua van Niekerk 2021. All Rights Reserved.</p>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a target="_blank" href="privacy">Privacy</a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="disclaimer">Disclaimer</a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="about">About</a>
-              </li>
-            </ul>
+              </div>
+
+              <input
+                class="form-control required email"
+                placeholder="Email address"
+                type="email" name="_replyto"
+              />
+
+            </div>
           </div>
-        </footer>
 
-        <!-- CONTACT V1 FORM REFERENCES -->
-        <!--===============================================================================================-->
-          <script src="ContactFrom_v1/vendor/jquery/jquery-3.2.1.min.js"></script>
-        <!--===============================================================================================-->
-          <script src="ContactFrom_v1/vendor/bootstrap/js/popper.js"></script>
-          <script src="ContactFrom_v1/vendor/bootstrap/js/bootstrap.min.js"></script>
-        <!--===============================================================================================-->
-          <script src="ContactFrom_v1/vendor/select2/select2.min.js"></script>
-        <!--===============================================================================================-->
-          <script src="ContactFrom_v1/vendor/tilt/tilt.jquery.min.js"></script>
-          <script >
-            $('.js-tilt').tilt({
-              scale: 1.1
-            })
-          </script>
+          <div class="form-group mb-3">
+            <div class="input-group input-group-alternative">
+              <div class="">
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+                <span class="input-group-text pr-3 my-aqua-color">
+                  Message
+                </span>
 
-          gtag('config', 'UA-23581568-13');
-        </script>
+              </div>
 
-        <!--===============================================================================================-->
-          <script src="ContactFrom_v1/js/main-min.js"></script>
+              <textarea 
+              class="form-control text-white required" 
+              rows="5" cols="60" 
+              placeholder="Message" 
+              name="message"
+              ></textarea><br>
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            </div>
+          </div>
+          <div class="form-check mt-3">
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary my-4"
+             name="subscribe" id="">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  End Modal -->
 
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 
-        <!-- Third party plugin JS-->
-        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> -->
-        <!-- Core theme JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-        <script src="js/scripts-min.js"></script>
-    </body>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Core theme JS-->
+  <script
+    src="assets/js/blk-design-system.js"
+    type="text/javascript"
+  ></script>
+  <script src="assets/js/get-to-know-min.js"></script>
+</body>
+
 </html>
