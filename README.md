@@ -1,3 +1,3 @@
-Portfolio website.
+A résumé in the shape of a website.
 
-Go to https://programmmerjosh.github.io OR https://joshua-resume.com to view.
+Go to https://programmmerjosh.github.io to view.
